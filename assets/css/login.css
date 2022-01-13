@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -7,6 +6,7 @@ body {
   background: url('/assets/images/login_bg.jpg') no-repeat center;
   background-size: cover;
 }
+/* loginAndRegBox */
 
 .loginAndRegBox {
   width: 400px;
@@ -16,8 +16,10 @@ body {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  border-radius: 25px;
+  /* box-shadow: ; */
+  box-shadow: 7px 6px 23px #888888;
 }
-
 .title-box {
   height: 60px;
   background: url('/assets/images/login_title.png') no-repeat center;
@@ -30,26 +32,23 @@ body {
 .layui-form {
   padding: 0 30px;
 }
-
+/* 修改去注册链接的样式 */
 .links {
   display: flex;
   justify-content: flex-end;
 }
-
 .links a {
   font-size: 12px;
 }
-
+/* 设置图标样式 */
 .layui-form-item {
   position: relative;
 }
-
 .layui-icon {
   position: absolute;
   left: 10px;
   top: 10px;
 }
-
 .layui-input {
   padding-left: 32px;
 }
